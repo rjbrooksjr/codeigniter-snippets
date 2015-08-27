@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->load->library(['${1:library}']);
+]]></content>
+	<tabTrigger>ll</tabTrigger>
+	<scope>source.php</scope>
+	<description>Load Libraries</description>
+</snippet>

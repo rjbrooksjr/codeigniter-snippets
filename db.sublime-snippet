@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$this->db->
+]]></content>
+	<tabTrigger>db</tabTrigger>
+	<description>\$this->db-></description>
+</snippet>
