@@ -1,0 +1,37 @@
+{
+	"Master_Database": {
+		"prefix": "db",
+		"body": [
+			"\\$this->db->"
+		],
+		"description": "Master database connection"
+	},
+	"Slave_Database": {
+		"prefix": "db",
+		"body": [
+			"\\$this->db_slave->"
+		],
+		"description": "Slave database connection"
+	},
+	"Load_Helper" : {
+		"prefix": "lh",
+		"body": [
+			"\\$this->load->helper(['${1:helper}']);"
+		],
+		"description": "Load CI Helpers"
+	},
+	"Load_Model" : {
+		"prefix": "lm",
+		"body": [
+			"\\$this->load->model(['${1:model}']);"
+		],
+		"description": "Load CI Models"
+	},
+	"Load_Library" : {
+		"prefix": "ll",
+		"body": [
+			"\\$this->load->library(['${1:library}']);"
+		],
+		"description": "Load CI Libraries"
+	}
+}
